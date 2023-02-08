@@ -614,9 +614,59 @@ a:link:hover {
   width: 100%;
 }
 
+.nav-images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
 .nav-bar-ul-2 {
-  display: none;
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  left: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  background: #fff;
+  z-index: 1;
+}
+
+.nav-bar-li-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+  width: 100%;
+}
+.nav-bar-li-2 a:link {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+.nav-bar-li-2 a {
+  padding: 10px;
+  color: #000;
+}
+
+.nav-bar-li-2 a:hover {
+  background-color: #78b404;
+  color: #fff;
+}
+
+.nav-bar-li-2:hover {
+  background-color: #78b404;
+  color: #fff;
 }
 
 .hamburger {
@@ -624,15 +674,9 @@ a:link:hover {
 }
 
 .nav-bar-2 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  display: none;
+  color: #000;
 }
-
-  .hamburger {
-    display: none;
-  }
 
   .cancel {
     display: none;
@@ -648,12 +692,8 @@ a:link:hover {
   }
 
   .dimensions-img {
-    width: 100%;
+    width: cover;
     height: auto;
-  }
-
-  .logo {
-    padding-left: 30px;
   }
 
   .house-info-section {
@@ -691,7 +731,7 @@ a:link:hover {
   }
 }
 
-@media(max-width: 768px){
+@media only screen and (max-width: 768px) and (min-width: 426px){
   .dimensions-section {
     display: flex;
     flex-direction: column;

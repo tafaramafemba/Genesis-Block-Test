@@ -5,14 +5,14 @@ const nightMode = document.querySelector('.night-btn');
 const a = document.querySelector('.a');
 
 toggleButton.addEventListener('click', () => {
-  navbarLinks.classList.toggle('active');
+  navbarLinks.style.display = 'block';
   toggleButton.style.display = 'none';
   x.style.display = 'block';
 });
 
 function closer() {
   x.style.display = 'none';
-  navbarLinks.classList.remove('active');
+  navbarLinks.style.display = 'none';
   toggleButton.style.display = 'block';
 }
 x.addEventListener('click', closer);
