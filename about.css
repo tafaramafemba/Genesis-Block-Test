@@ -150,6 +150,11 @@ hr {
   gap: 5px;
 }
 
+.download-li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .image-card {
   list-style: none;
   text-decoration: none;
@@ -185,6 +190,26 @@ hr {
   padding: 13px;
   font-size: 12px;
   font-weight: bold;
+}
+
+.view-btn:hover {
+  background-color: rgb(255, 115, 1);;
+  color: #fff;
+  border: none;
+  padding: 13px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.schedule-btn:hover {
+  background-color: rgb(255, 115, 1);
+  color: #fff;
+  border: none;
+  padding: 13px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .schedule-btn {
@@ -333,6 +358,10 @@ hr {
   border-radius: 50%;
   cursor: pointer;
   text-align: center;
+}
+
+.absolute-button:hover {
+  background-color: rgb(255, 115, 1);
 }
 
 .image-container {
