@@ -869,6 +869,11 @@ a:link:hover {
     display: none;
   }
 
+  .nav-bar-li-2 a {
+    padding: 10px;
+    color: #000;
+  }
+
   .cancel {
     display: none;
   }
@@ -901,6 +906,7 @@ a:link:hover {
 
   .download-div {
     flex-direction: column;
+    width: auto;
   }
 
   .download-ul {
