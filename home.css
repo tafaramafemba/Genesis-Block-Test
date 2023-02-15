@@ -3,7 +3,9 @@
 body {
   margin: 0;
   padding: 0;
+  width: 100vw;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: auto;
 }
 
 body.night-mode {
@@ -499,6 +501,10 @@ a:link:hover {
     display: flex;
     flex-direction: column;
     padding-bottom: 50px;
+  }
+
+  .bedroom-back {
+    width: 475px;
   }
 
   .dimensions-div {
