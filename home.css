@@ -507,8 +507,12 @@ a:link:hover {
     width: 475px;
   }
 
+  .nav-bar-section {
+    width: 113vw;
+  }
+
   .dimensions-div {
-    width: 95%;
+    width: 101vw;
     padding-right: 0;
   }
 
@@ -519,7 +523,7 @@ a:link:hover {
   }
 
   .dimensions-img {
-    width: 100%;
+    width: 113vw;
     height: auto;
   }
 
@@ -551,7 +555,7 @@ a:link:hover {
 
   .home-specs-div {
     margin-left: 0;
-    width: 100%;
+    width: 106vw;
     margin-top: 0;
   }
 
@@ -604,7 +608,7 @@ a:link:hover {
   padding: 10px;
   align-items: center;
   margin-bottom: 0;
-  width: 100%;
+  width: 106vw;
 }
 .image-card {
   justify-content: center;
@@ -694,7 +698,7 @@ a:link:hover {
   }
 
   .absolute-button {
-    left: 94%;
+    left: 90%;
   }
 
   .dimensions-img {
